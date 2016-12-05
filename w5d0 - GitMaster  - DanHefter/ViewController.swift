@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
+   
+   @IBOutlet weak var textLabel: UILabel!
+   @IBAction func changeLabelButton(_ sender: Any) {
+      textLabel.text = "Hooray I'm Free!"
+   }
 
+   
+   
    override func viewDidLoad() {
       super.viewDidLoad()
       // Do any additional setup after loading the view, typically from a nib.
