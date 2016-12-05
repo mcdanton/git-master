@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373DEB501DF5FC1800209122 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373DEB4F1DF5FC1800209122 /* Model.swift */; };
 		378621B71DF5E6B8002B81F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378621B61DF5E6B8002B81F7 /* AppDelegate.swift */; };
 		378621B91DF5E6B8002B81F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378621B81DF5E6B8002B81F7 /* ViewController.swift */; };
 		378621BC1DF5E6B8002B81F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378621BA1DF5E6B8002B81F7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373DEB4F1DF5FC1800209122 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		378621B31DF5E6B8002B81F7 /* w5d0 - GitMaster  - DanHefter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w5d0 - GitMaster  - DanHefter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		378621B61DF5E6B8002B81F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378621B81DF5E6B8002B81F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				378621B61DF5E6B8002B81F7 /* AppDelegate.swift */,
 				378621B81DF5E6B8002B81F7 /* ViewController.swift */,
+				373DEB4F1DF5FC1800209122 /* Model.swift */,
 				378621BA1DF5E6B8002B81F7 /* Main.storyboard */,
 				378621BD1DF5E6B9002B81F7 /* Assets.xcassets */,
 				378621BF1DF5E6B9002B81F7 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373DEB501DF5FC1800209122 /* Model.swift in Sources */,
 				378621B91DF5E6B8002B81F7 /* ViewController.swift in Sources */,
 				378621B71DF5E6B8002B81F7 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				378621C71DF5E6B9002B81F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
